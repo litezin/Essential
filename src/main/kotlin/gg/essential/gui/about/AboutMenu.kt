@@ -28,7 +28,7 @@ class AboutMenu(category: Category = Category.CHANGELOG) :
         ElementaVersion.V2,
         "Essential",
         GuiScale.scaleForScreenSize().ordinal,
-        discordActivityDescription = "Learning about Essential",
+        discordActivityDescription = "Aprendendo sobre o Essential",
     ) {
     private var platformSpecific = BasicState(true)
 

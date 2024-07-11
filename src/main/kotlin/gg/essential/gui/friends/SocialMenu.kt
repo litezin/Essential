@@ -51,7 +51,7 @@ class SocialMenu @JvmOverloads constructor(
 ): InternalEssentialGUI(
     ElementaVersion.V5,
     "Social",
-    discordActivityDescription = "Messaging friends",
+    discordActivityDescription = "Mensagens para amigos",
 ), GuiRequiresTOS {
 
     private val connectionManager = Essential.getInstance().connectionManager

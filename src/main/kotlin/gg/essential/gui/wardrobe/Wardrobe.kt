@@ -59,7 +59,7 @@ class Wardrobe(
 ) : InternalEssentialGUI(
     ElementaVersion.V2,
     "Wardrobe",
-    discordActivityDescription = "Customizing their character",
+    discordActivityDescription = "Customizando sua skin",
 ), GuiRequiresTOS {
 
     val connectionManager = Essential.getInstance().connectionManager
